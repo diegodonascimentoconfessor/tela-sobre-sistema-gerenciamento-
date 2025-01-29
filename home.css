@@ -102,13 +102,13 @@ main {
     align-items: center; /* Centraliza as imagens verticalmente */
     margin-top: 20px;
     margin-left: 300px;
-    border: solid 2px red; /* Define a borda vermelha */
+    border: solid 2px rgb(0, 17, 255); /* Define a borda vermelha */
     padding: 100px;
 }
 
 .album img {
     width: 100%; /* Ajusta a largura da imagem ao contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 100%; /* Mantém a proporção da imagem */
     border: solid 2px red; /* Borda vermelha igual ao álbum */
     border-radius: 8px; /* Borda arredondada */
     padding: 20;
