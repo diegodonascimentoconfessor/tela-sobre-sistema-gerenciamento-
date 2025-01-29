@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-family: "Open Sans", serif;
+}
+
+.header {
+    background-image: url('/image/header.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    height: 100%;
+    width: 1437px;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+}
+
+.imgmenu, .imgmenu2 {
+    width: 28px;
+    height: 28px;
+}
+
+ul {
+    color: #F8F8F8;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 3.7rem;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: #F8F8F8;
+}
+
+#divgradientHome {
+    width: 1440px;
+    height: 50px;
+    background: linear-gradient(#005185, #ffffff);
+}
+
+#sectionhome {
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectionh2home {
+    font-size: 3.4rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Centraliza as imagens verticalmente */
+    margin-top: 20px;
+    margin-left: 300px;
+    border: solid 2px red; /* Define a borda vermelha */
+    padding: 100px;
+}
+
+.album img {
+    width: 100%; /* Ajusta a largura da imagem ao contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border: solid 2px red; /* Borda vermelha igual ao álbum */
+    border-radius: 8px; /* Borda arredondada */
+    padding: 20;
+    margin-left: 100px;
+}
+
+.album img:hover {
+    transform: scale(1.05);
+}
+
+#Footerhistory {
+    width: 1440px;
+    background-color: #005185;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#Footerhistory h2 {
+    font-size: 2.4rem;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+#logoFooterhistory {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+}
